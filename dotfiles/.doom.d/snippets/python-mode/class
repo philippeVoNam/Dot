@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+# name: class with args
+# contributor: Orestis Markou
+# contributor: Nishio Hirokazu
+# contributor: Yasser González Fernández <yglez@uh.cu>
+# key: class
+# --
+class ${1:ClassName}(${2:parentClass}):
+    """
+    ${3:description}
+    """
+    def __init__(self, $4):
+    """ init. """
+         # inits.
+         ${4:$(mapconcat (lambda (f) (concat "self." f " = " f))
+                         (split-string yas-text " *," t " *") "\n")}

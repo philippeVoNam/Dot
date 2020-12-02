@@ -1,7 +1,12 @@
 #+TITLE: Programs
 
 - awesome wm
+  + /home/namv/.config/awesome
 - bashrc
-- dmenu
-- emacs
+  + /home/namv/.bashrc
+- rofi
+  + /home/namv/.config/rofi
+- doom-emacs
+  + /home/namv/.doom.d
 - nvim
+  + /home/namv/.config/nvim

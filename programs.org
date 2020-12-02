@@ -1,0 +1,7 @@
+#+TITLE: Programs
+
+- awesome wm
+- bashrc
+- dmenu
+- emacs
+- nvim
